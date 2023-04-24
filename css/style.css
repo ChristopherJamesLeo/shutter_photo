@@ -252,3 +252,26 @@ input:checked + .slider:before {
     opacity: 1;
 }
 /* End Gellary Section */
+
+
+/* Start Bio Section */
+.bio_content_container h2 {
+    color: var(--global-color-white);
+    font-size: 35px;
+    letter-spacing: 1px;
+    user-select: none;
+}
+.bio_content_container p {
+    color: var(--global-color-gray);
+    font-size: 20px;
+    line-height: 1.8;
+}
+.bio_content_container p span {
+    color: var(--global-color);
+}
+.bio_content_container div span {
+    color: var(--global-color-gray);
+    font-size: 20px;
+    line-height: 1.8;
+}
+/* End Bio Secition */

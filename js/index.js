@@ -1,24 +1,6 @@
 // Start JQuery Section
 $(document).ready(function(){
 
-    // $('.magnific_img').magnificPopup({
-    //     type: 'image',
-    //     mainClass: 'mfp-with-zoom', // this class is for CSS animation below
-    //     gallery : {
-    //         enabled : true,
-    //     },
-      
-    //     zoom: {
-    //       enabled: true, // By default it's false, so don't forget to enable it
-      
-    //       duration: 300,
-    //       easing: 'linear', 
-    //       opener: function(openerElement) {
-    //         return openerElement.is('img') ? openerElement : openerElement.find('img');
-    //       }
-    //     }
-      
-    //   });
 })
 
 $(window).on('load', function() { // document ၏ အပြင်မှာရေးပေးရမည်
