@@ -301,3 +301,39 @@ input:checked + .slider:before {
     color: var(--global-color);
 }
 /* End Blog Section */
+
+/* Start Contact Section */
+.contact_form_container p {
+    color: var(--global-color-gray);
+    font-size: 20px;
+    line-height: 1.8;
+}
+.contact_form label {
+    color: var(--global-color-white);
+    font-size: 20px;
+}
+.contact_form .form-control {
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid var(--global-color-gray);
+    font-size: 20px;
+    caret-color: var(--global-color-white);
+}
+.contact_form .form-control:focus {
+    box-shadow: none;
+    border-bottom: 2px solid var(--global-color-white);
+}
+.contact_form .form-control::placeholder {
+    color: var(--global-color-gray);
+
+}
+.contact_form form button {
+    padding: 15px 0px;
+    color: #fff !important;
+    background-color: var(--global-color) !important;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 40px;
+}
+/* End Contact Section */
